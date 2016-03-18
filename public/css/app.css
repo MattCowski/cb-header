@@ -1,0 +1,77 @@
+body, html {
+  padding-top: 50px; }
+
+input {
+  height: 38px !important;
+  border-radius: 2px !important; }
+
+.btn {
+  height: 38px;
+  font-family: 'Neue Helvetica W01', Helvetica, Arial, sans-serif;
+  border-radius: 2px !important;
+  font-size: 15px !important; }
+  .btn.btn-primary {
+    border: 1px solid #333 !important;
+    background-color: #333; }
+    .btn.btn-primary:hover, .btn.btn-primary:visited, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active, .btn.btn-primary.active:focus, .btn.btn-primary.active:active, .btn.btn-primary.active:hover {
+      border: 1px solid #000;
+      background-color: #000; }
+  .btn.btn-info {
+    background-color: #0e599e; }
+
+.popover-button {
+  box-shadow: 21px 21px 33px -33px #000010 !important; }
+
+.popover, .panel, .well {
+  border-radius: 2px !important; }
+
+.fa-2 {
+  font-size: 2em; }
+
+.fa-1 {
+  font-size: 1.3em; }
+
+img {
+  position: relative !important; }
+
+.popover {
+  min-width: 250px; }
+
+.swatches {
+  display: inline-block; }
+
+.example-animate-container {
+  background: white;
+  border: 1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0 10px; }
+
+.animate-repeat {
+  line-height: 30px;
+  list-style: none;
+  box-sizing: border-box; }
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  transition: all linear 0.2s; }
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+  opacity: 0;
+  max-height: 0; }
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+  opacity: 1;
+  max-height: 30px; }
+
+.navbar {
+  border-bottom: 2px solid black !important;
+  background: white !important; }
+  .navbar .row {
+    border-top: 0.1em solid #d8d8d8 !important;
+    font-weight: bold !important; }
